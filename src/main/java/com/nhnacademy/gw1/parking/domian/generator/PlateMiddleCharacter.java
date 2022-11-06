@@ -1,4 +1,4 @@
-package com.nhnacademy.gw1.parking.domian.car;
+package com.nhnacademy.gw1.parking.domian.generator;
 
 public enum PlateMiddleCharacter {
     A('가'),
@@ -16,8 +16,12 @@ public enum PlateMiddleCharacter {
     M('파'),
     N('하');
 
-    private char korChar;
+    private final char korChar;
     PlateMiddleCharacter(char korChar) {
         this.korChar = korChar;
+    }
+
+    public char getKorChar() {
+        return korChar;
     }
 }
