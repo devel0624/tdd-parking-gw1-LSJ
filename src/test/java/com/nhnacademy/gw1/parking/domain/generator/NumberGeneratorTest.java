@@ -1,10 +1,7 @@
-package com.nhnacademy.gw1.parking.domian.generator;
+package com.nhnacademy.gw1.parking.domain.generator;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.HashMap;
-import java.util.Map;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;

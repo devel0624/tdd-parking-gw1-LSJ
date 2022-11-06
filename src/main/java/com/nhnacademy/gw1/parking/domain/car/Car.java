@@ -1,6 +1,6 @@
-package com.nhnacademy.gw1.parking.domian.car;
+package com.nhnacademy.gw1.parking.domain.car;
 
-import com.nhnacademy.gw1.parking.domian.generator.PlateGenerator;
+import com.nhnacademy.gw1.parking.domain.generator.PlateGenerator;
 
 import java.util.Arrays;
 

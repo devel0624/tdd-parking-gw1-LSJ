@@ -1,4 +1,4 @@
-package com.nhnacademy.gw1.parking.domian.generator;
+package com.nhnacademy.gw1.parking.domain.generator;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;

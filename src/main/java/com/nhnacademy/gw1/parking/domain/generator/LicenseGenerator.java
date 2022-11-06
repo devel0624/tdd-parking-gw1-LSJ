@@ -1,4 +1,4 @@
-package com.nhnacademy.gw1.parking.domian.generator;
+package com.nhnacademy.gw1.parking.domain.generator;
 
 import java.util.Arrays;
 import java.util.Random;

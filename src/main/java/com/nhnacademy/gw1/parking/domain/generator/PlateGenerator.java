@@ -1,4 +1,4 @@
-package com.nhnacademy.gw1.parking.domian.generator;
+package com.nhnacademy.gw1.parking.domain.generator;
 
 
 public enum PlateGenerator {
@@ -17,10 +17,10 @@ public enum PlateGenerator {
     FULL_SIZE{
         @Override
         public String generateLicense() {
-            return numberGenerator.generateLicense(70,99);
+            return numberGenerator.generateLicense(70,29);
         }
     };
-    protected LicenseGenerator numberGenerator;
+    protected final LicenseGenerator numberGenerator;
 
     PlateGenerator() {
         numberGenerator = new LicenseGenerator();
